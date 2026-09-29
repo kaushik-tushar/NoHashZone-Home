@@ -1,157 +1,189 @@
-##NoHashZone
-Security Analysis Platform for Cryptographic Risk Assessment
+# NoHashZone
+
+## Security Analysis Platform for Cryptographic Risk Assessment
 
 NoHashZone is a full-stack cybersecurity platform designed to identify, analyze, and assess cryptographic risks across multiple hashing algorithms.
 
-The platform provides an interactive web interface for cryptographic security analysis while demonstrating practical implementation of backend processing, database operations, query optimization, and cloud deployment.
+The platform provides an interactive web interface for security analysis with backend processing, database operations, and cloud deployment.
 
-Analyze. Assess. Understand Cryptographic Risk.
+**Analyze. Assess. Understand Cryptographic Risk.**
 
-🌐 Live Application
+---
 
-🚀 Access NoHashZone:
-https://nohashzone-home.vercel.app/
+## Live Application
 
-No local installation is required. The application is deployed on Vercel and can be accessed directly through a modern web browser from anywhere with an internet connection.
+**https://nohashzone-home.vercel.app/**
 
-🚀 Features
-🔐 Cryptographic Hash Analysis
-Analyze hashes across multiple cryptographic algorithms
-Identify potential cryptographic weaknesses
-Perform security-focused hash analysis
-Support cryptographic research and experimentation
-🧪 Controlled Hash Recovery
-Perform controlled hash recovery operations for authorized security testing
-Designed for cybersecurity research and educational purposes
-Provides a controlled environment for understanding cryptographic risks
-📊 Security Analysis Dashboard
-Interactive JavaScript-driven interface
-Structured presentation of analysis results
-User-friendly security analysis workflow
-Real-time interaction between frontend and backend
-⚡ Backend Processing
-Flask-based backend architecture
-REST-based application design
-Efficient database querying and processing
-Handles 1,000+ database records
-Query optimization and structured data handling
-☁️ Cloud Deployment
-Deployed on Vercel
-Globally accessible web application
-Production-oriented full-stack architecture
-🏗️ Architecture
-┌──────────────────────────┐
-│        Web Client        │
-│      HTML / CSS / JS     │
-└────────────┬─────────────┘
-             │
-             │ HTTP / API
-             ▼
-┌──────────────────────────┐
-│      Flask Backend       │
-│     Python / REST API    │
-└────────────┬─────────────┘
-             │
-             │ Database Queries
-             ▼
-┌──────────────────────────┐
-│       SQL Database       │
-│    Analysis / Records    │
-└────────────┬─────────────┘
-             │
-             ▼
-┌──────────────────────────┐
-│       Vercel Cloud       │
-│    Production Layer      │
-└──────────────────────────┘
-🛠️ Tech Stack
-Category	Technologies
-Frontend	HTML5, CSS3, JavaScript
-Backend	Python, Flask
-Database	SQL
-Data Processing	Query Optimization, Structured Data Handling
-Cloud Deployment	Vercel
-📈 Performance
+The application is publicly accessible through the web. No local installation is required.
 
-The application was designed with production-oriented performance considerations:
+---
 
-⚡ ~2 seconds average response time in production
-📊 Processes 1,000+ database records
-🔎 Optimized database queries
-🗄️ Structured backend data handling
-🔗 Frontend-backend integration
-☁️ Production cloud deployment
-🔐 Security Use Cases
+## Features
 
-NoHashZone provides a controlled environment for:
+### Cryptographic Hash Analysis
 
-Cryptographic security analysis
-Hash algorithm research
-Security testing and experimentation
-Understanding password-storage risks
-Cybersecurity education
-Authorized security assessments
+* Analyze hashes across multiple algorithms
+* Identify potential cryptographic weaknesses
+* Perform security-focused hash analysis
+* Support cryptographic research and experimentation
 
-Important: All recovery and testing activities should only be performed on data for which you have explicit authorization.
+### Controlled Hash Recovery
 
-🧠 Engineering Highlights
+* Perform controlled recovery operations for authorized security testing
+* Provide a controlled environment for cybersecurity research
+* Support educational cryptographic experimentation
 
-NoHashZone demonstrates practical implementation of:
+### Security Analysis Dashboard
 
-Full-stack web application development
-RESTful backend architecture
-Database-driven security applications
-SQL query optimization
-Large-scale record processing
-Cryptographic analysis workflows
-Cloud deployment
-Frontend-backend integration
-Production performance optimization
-🔬 Research & Development
+* Interactive JavaScript-based interface
+* Structured analysis results
+* User-friendly security workflow
+* Frontend and backend integration
+
+### Backend Processing
+
+* Python and Flask backend
+* REST-based application architecture
+* Database-driven processing
+* Handles 1,000+ database records
+* Optimized database queries
+
+### Cloud Deployment
+
+* Deployed on Vercel
+* Publicly accessible web application
+* Production deployment architecture
+
+---
+
+## Technology Stack
+
+**Frontend**
+
+* HTML5
+* CSS3
+* JavaScript
+
+**Backend**
+
+* Python
+* Flask
+
+**Database**
+
+* SQL
+
+**Cloud**
+
+* Vercel
+
+---
+
+## Application Architecture
+
+```text
+User
+ |
+ v
+Web Interface
+HTML / CSS / JavaScript
+ |
+ v
+Flask Backend
+Python / REST API
+ |
+ v
+SQL Database
+ |
+ v
+Vercel Deployment
+```
+
+---
+
+## Performance
+
+* Approximately 2 seconds average response time in production
+* Processes 1,000+ database records
+* Optimized database queries
+* Structured backend data handling
+* Full-stack cloud deployment
+
+---
+
+## Security Use Cases
+
+NoHashZone can be used for:
+
+* Cryptographic security analysis
+* Hash algorithm research
+* Security testing
+* Cybersecurity experimentation
+* Understanding password-storage risks
+* Cybersecurity education
+* Authorized security assessments
+
+All security testing and recovery operations should only be performed on systems and data for which proper authorization has been obtained.
+
+---
+
+## Engineering Highlights
+
+* Full-stack web application development
+* RESTful backend architecture
+* Database-driven security application
+* SQL query optimization
+* Large-scale record processing
+* Cryptographic analysis workflows
+* Frontend-backend integration
+* Cloud deployment
+* Production performance optimization
+
+---
+
+## Research and Development
 
 NoHashZone explores the intersection of:
 
-Cybersecurity × Cryptography × Web Engineering × Cloud Computing
+**Cybersecurity + Cryptography + Web Engineering + Cloud Computing**
 
-The platform provides a practical environment for understanding cryptographic risks and developing security-focused applications.
+The project provides a practical environment for understanding cryptographic risks and developing security-focused applications.
 
-🌍 Accessibility
+---
 
-The production application is publicly accessible through the internet.
+## Responsible Use
 
-No installation required
+NoHashZone is intended for:
 
-Simply open:
+* Authorized security testing
+* Cybersecurity research
+* Educational purposes
+* Cryptographic experimentation
 
-https://nohashzone-home.vercel.app/
+Do not use the platform to analyze or recover credentials, hashes, systems, or data without explicit authorization.
 
-The application can be accessed using a modern web browser without installing additional software.
+---
 
-⚠️ Responsible Use
+## Project Status
 
-NoHashZone is intended strictly for:
+**Active Development**
 
-Authorized security testing
-Cybersecurity research
-Educational purposes
-Cryptographic experimentation
+The platform is continuously being improved with enhancements to cryptographic analysis, security workflows, performance, usability, and deployment.
 
-Do not use the platform to recover, analyze, or attack credentials, hashes, systems, or data without proper authorization.
+---
 
-The platform should only be used against systems and data for which you have explicit permission.
+## Author
 
-👨‍💻 Author
-
-Tushar Kaushik
+**Tushar Kaushik**
 
 Cybersecurity Engineer | Software Developer | Security Researcher
 
-📌 Project Status
+---
 
-Status: Active Development
+## Project Links
 
-The platform is continuously being improved with enhancements to cryptographic analysis, security workflows, performance, usability, and cloud deployment.
+**Live Application:**
+https://nohashzone-home.vercel.app/
 
-⭐ Project
-
-If you find NoHashZone useful for cybersecurity research or education, consider giving the repository a ⭐ on GitHub.
+**GitHub Repository:**
+https://github.com/kaushik-tushar/NoHashZone-Home
